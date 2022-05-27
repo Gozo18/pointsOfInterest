@@ -1,0 +1,348 @@
+[
+  {
+    "id": 11,
+    "url": "https://preklady.mimedigital.cz/upload/6/860x400-2.jpeg",
+    "points": [
+      {
+        "top": 30.16148,
+        "left": 27.58152,
+        "oriented": "right",
+        "product": {
+          "id": 65,
+          "shoptetId": "18",
+          "shoptetGuid": "bffa3b98-d968-11e0-b04f-57a43310b768",
+          "name": "Maui Jim Ho'okipa Tennessee",
+          "code": "0018",
+          "image": "https://cdn.myshoptet.com/usr/mimedigital.myshoptet.com/user/shop/orig/18-1_maui-jim-ho-okipa-tennessee.jpg?6279fd50",
+          "url": "https://mimedigital.myshoptet.com/maui-jim-ho-okipa-tennessee/",
+          "stock": 0,
+          "flags": [
+            {
+              "code": "action",
+              "active": "0"
+            },
+            {
+              "code": "tip",
+              "active": "0"
+            },
+            {
+              "code": "new",
+              "active": "0"
+            },
+            {
+              "code": "custom1",
+              "active": "0"
+            },
+            {
+              "code": "custom2",
+              "active": "0"
+            },
+            {
+              "code": "custom3",
+              "active": "0"
+            }
+          ],
+          "price": 600,
+          "currency": "EUR",
+          "actionPrice": null,
+          "actionPriceFrom": null,
+          "actionPriceTo": null
+        }
+      },
+      {
+        "top": 22.12816,
+        "left": 75.81522,
+        "oriented": "left",
+        "product": {
+          "id": 66,
+          "shoptetId": "23",
+          "shoptetGuid": "96aacc31-d979-11e0-b04f-57a43310b768",
+          "name": "Nike Team Race",
+          "code": "23/38",
+          "image": "https://cdn.myshoptet.com/usr/mimedigital.myshoptet.com/user/shop/orig/23-1_nike-team-race.jpg?6279fd50",
+          "url": "https://mimedigital.myshoptet.com/nike-team-race/",
+          "stock": 0,
+          "flags": [
+            {
+              "code": "action",
+              "active": "0"
+            },
+            {
+              "code": "tip",
+              "active": "0"
+            },
+            {
+              "code": "new",
+              "active": "0"
+            },
+            {
+              "code": "custom1",
+              "active": "0"
+            },
+            {
+              "code": "custom2",
+              "active": "0"
+            },
+            {
+              "code": "custom3",
+              "active": "0"
+            }
+          ],
+          "price": 200,
+          "currency": "EUR",
+          "actionPrice": null,
+          "actionPriceFrom": null,
+          "actionPriceTo": null
+        }
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "url": "https://preklady.mimedigital.cz/upload/6/420x400-1.jpeg",
+    "points": [
+      {
+        "top": 8.66681,
+        "left": 58.69565,
+        "oriented": "top",
+        "product": {
+          "id": 63,
+          "shoptetId": "39",
+          "shoptetGuid": "99fe9222-43b0-11e8-a05f-0800273dc42e",
+          "name": "Linteo box kapesníků",
+          "code": "49396/FIA",
+          "image": "https://cdn.myshoptet.com/usr/mimedigital.myshoptet.com/user/shop/orig/39_linteo-box-kapesniku.png?6279fd50",
+          "url": "https://mimedigital.myshoptet.com/linteo-box-kapesniku/",
+          "stock": 0,
+          "flags": [
+            {
+              "code": "action",
+              "active": "0"
+            },
+            {
+              "code": "tip",
+              "active": "0"
+            },
+            {
+              "code": "new",
+              "active": "0"
+            },
+            {
+              "code": "custom1",
+              "active": "0"
+            },
+            {
+              "code": "custom2",
+              "active": "0"
+            },
+            {
+              "code": "custom3",
+              "active": "0"
+            }
+          ],
+          "price": 50,
+          "currency": "EUR",
+          "actionPrice": null,
+          "actionPriceFrom": null,
+          "actionPriceTo": null
+        }
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "url": "https://preklady.mimedigital.cz/upload/6/860x400-1.jpeg",
+    "points": [
+      {
+        "top": 63.90145,
+        "left": 25.06793,
+        "oriented": "right",
+        "product": {
+          "id": 65,
+          "shoptetId": "18",
+          "shoptetGuid": "bffa3b98-d968-11e0-b04f-57a43310b768",
+          "name": "Maui Jim Ho'okipa Tennessee",
+          "code": "0018",
+          "image": "https://cdn.myshoptet.com/usr/mimedigital.myshoptet.com/user/shop/orig/18-1_maui-jim-ho-okipa-tennessee.jpg?6279fd50",
+          "url": "https://mimedigital.myshoptet.com/maui-jim-ho-okipa-tennessee/",
+          "stock": 0,
+          "flags": [
+            {
+              "code": "action",
+              "active": "0"
+            },
+            {
+              "code": "tip",
+              "active": "0"
+            },
+            {
+              "code": "new",
+              "active": "0"
+            },
+            {
+              "code": "custom1",
+              "active": "0"
+            },
+            {
+              "code": "custom2",
+              "active": "0"
+            },
+            {
+              "code": "custom3",
+              "active": "0"
+            }
+          ],
+          "price": 600,
+          "currency": "EUR",
+          "actionPrice": null,
+          "actionPriceFrom": null,
+          "actionPriceTo": null
+        }
+      },
+      {
+        "top": 53.53116,
+        "left": 76.5625,
+        "oriented": "bottom",
+        "product": {
+          "id": 61,
+          "shoptetId": "37",
+          "shoptetGuid": "98bbd2e4-43b0-11e8-a05f-0800273dc42e",
+          "name": "Koš odpadkový Curver FLIPBIN 25l NEW YORK",
+          "code": "64",
+          "image": "https://cdn.myshoptet.com/usr/mimedigital.myshoptet.com/user/shop/orig/37_kos-odpadkovy-curver-flipbin-25l-new-york.jpg?6279fd50",
+          "url": "https://mimedigital.myshoptet.com/kos-odpadkovy-curver-flipbin-25l-new-york/",
+          "stock": 0,
+          "flags": [
+            {
+              "code": "tip",
+              "active": "1"
+            },
+            {
+              "code": "action",
+              "active": "0"
+            },
+            {
+              "code": "new",
+              "active": "0"
+            },
+            {
+              "code": "custom1",
+              "active": "0"
+            },
+            {
+              "code": "custom2",
+              "active": "0"
+            },
+            {
+              "code": "custom3",
+              "active": "0"
+            }
+          ],
+          "price": 310,
+          "currency": "EUR",
+          "actionPrice": null,
+          "actionPriceFrom": null,
+          "actionPriceTo": null
+        }
+      },
+      {
+        "top": 1.24151,
+        "left": 48.36957,
+        "oriented": "top",
+        "product": {
+          "id": 62,
+          "shoptetId": "38",
+          "shoptetGuid": "9947a05c-43b0-11e8-a05f-0800273dc42e",
+          "name": "Lampička na knihu - Tiny Tim",
+          "code": "DS99987698",
+          "image": "https://cdn.myshoptet.com/usr/mimedigital.myshoptet.com/user/shop/orig/38_lampicka-na-knihu-tiny-tim.jpg?6279fd50",
+          "url": "https://mimedigital.myshoptet.com/lampicka-na-knihu-tiny-tim/",
+          "stock": 0,
+          "flags": [
+            {
+              "code": "new",
+              "active": "1"
+            },
+            {
+              "code": "action",
+              "active": "0"
+            },
+            {
+              "code": "tip",
+              "active": "0"
+            },
+            {
+              "code": "custom1",
+              "active": "0"
+            },
+            {
+              "code": "custom2",
+              "active": "0"
+            },
+            {
+              "code": "custom3",
+              "active": "0"
+            }
+          ],
+          "price": 310,
+          "currency": "EUR",
+          "actionPrice": null,
+          "actionPriceFrom": null,
+          "actionPriceTo": null
+        }
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "url": "https://preklady.mimedigital.cz/upload/6/420x400-2.jpeg",
+    "points": [
+      {
+        "top": 54.55358,
+        "left": 20.04076,
+        "oriented": "right",
+        "product": {
+          "id": 69,
+          "shoptetId": "40",
+          "shoptetGuid": "9ac630a1-43b0-11e8-a05f-0800273dc42e",
+          "name": "Polštář disketa",
+          "code": "DS99987699",
+          "image": "https://cdn.myshoptet.com/usr/mimedigital.myshoptet.com/user/shop/orig/40_polstar-disketa.jpg?6279fd50",
+          "url": "https://mimedigital.myshoptet.com/polstar-disketa/",
+          "stock": 0,
+          "flags": [
+            {
+              "code": "tip",
+              "active": "1"
+            },
+            {
+              "code": "custom1",
+              "active": "1"
+            },
+            {
+              "code": "action",
+              "active": "0"
+            },
+            {
+              "code": "new",
+              "active": "0"
+            },
+            {
+              "code": "custom2",
+              "active": "0"
+            },
+            {
+              "code": "custom3",
+              "active": "0"
+            }
+          ],
+          "price": 225,
+          "currency": "EUR",
+          "actionPrice": null,
+          "actionPriceFrom": null,
+          "actionPriceTo": null
+        }
+      }
+    ]
+  }
+]
