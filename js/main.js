@@ -30,6 +30,7 @@ jQuery(document).ready(function ($) {
         if (selectedPoint.hasClass("isOpen")) {
           selectedPoint.removeClass("isOpen").addClass("visited");
         } else {
+          $(".singlePoint").removeClass("isOpen");
           selectedPoint
             .addClass("isOpen")
             .siblings(".single-point.isOpen")
