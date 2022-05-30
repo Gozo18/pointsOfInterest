@@ -6,6 +6,12 @@ jQuery(document).ready(function ($) {
         `<div class="productWrapper"><img src="${item.url}" alt="Preview image" /><ul class=${boxClass}></ul></div>`
       );
       let points = $.map(item.points, function (point) {
+        var stock;
+        if (point.product.stock < 1) {
+          stock = "Není skladem";
+        } else {
+          stock = "Skladem";
+        }
         $(`.${boxClass}`).append(
           `<li class="singlePoint" style="top:${point.top}%; left:${point.left}%">
             <a class="imgReplace" href="#0">Více</a>
@@ -14,7 +20,10 @@ jQuery(document).ready(function ($) {
               <div class="pointImage">
                 <img src="${point.product.image}" alt="Preview image" />
               </div>
-              <p>${point.product.price} ${point.product.currency}</p>
+              <div class="pointText">
+                <p>${point.product.price} ${point.product.currency}</p>
+                <p>${stock}</p>
+              </div>
               <a href=${point.product.url} class="detailButton">Detail</a>
               <a href="#0" class="closeInfo imgReplace">Zavřít</a>
             </div>
