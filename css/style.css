@@ -35,7 +35,7 @@
   max-width: 100%;
 }
 
-.poi-imageWrapper > a {
+.poi-imageWrapper a {
   color: #d95353;
   text-decoration: none;
 }
