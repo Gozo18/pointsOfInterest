@@ -6,15 +6,6 @@
   box-sizing: border-box;
 }
 
-a {
-  color: #d95353;
-  text-decoration: none;
-}
-
-img {
-  max-width: 100%;
-}
-
 .container {
   display: flex;
   flex-direction: column;
@@ -24,29 +15,36 @@ img {
   text-align: center;
 }
 
-.imgReplace {
+.poi-imgReplace {
   display: inline-block;
   overflow: hidden;
   text-indent: 100%;
   white-space: nowrap;
 }
 
-.productWrapper {
+.poi-imageWrapper {
   display: inline-block;
   position: relative;
   margin: 20px auto;
   width: 100%;
   max-width: 450px;
 }
-.productWrapper > img {
+
+.poi-imageWrapper > img {
   display: block;
+  max-width: 100%;
 }
 
-.singlePoint {
+.poi-imageWrapper > a {
+  color: #d95353;
+  text-decoration: none;
+}
+
+.poi-singlePoint {
   position: absolute;
   border-radius: 50%;
 }
-.singlePoint > a {
+.poi-singlePoint > a {
   position: relative;
   z-index: 2;
   display: block;
@@ -60,8 +58,8 @@ img {
   -moz-transition: background-color 0.2s;
   transition: background-color 0.2s;
 }
-.singlePoint > a::after,
-.singlePoint > a:before {
+.poi-singlePoint > a::after,
+.poi-singlePoint > a:before {
   content: "";
   position: absolute;
   left: 50%;
@@ -81,15 +79,15 @@ img {
   -moz-transition-duration: 0.2s;
   transition-duration: 0.2s;
 }
-.singlePoint > a::after {
+.poi-singlePoint > a::after {
   height: 2px;
   width: 12px;
 }
-.singlePoint > a::before {
+.poi-singlePoint > a::before {
   height: 12px;
   width: 2px;
 }
-.singlePoint::after {
+.poi-singlePoint::after {
   content: "";
   position: absolute;
   z-index: 1;
@@ -103,21 +101,21 @@ img {
   -moz-animation: cd-pulse 2s infinite;
   animation: cd-pulse 2s infinite;
 }
-.singlePoint.isOpen > a {
+.poi-singlePoint.isOpen > a {
   background-color: #475f74;
 }
-.singlePoint.isOpen > a::after,
-.singlePoint.isOpen > a::before {
+.poi-singlePoint.isOpen > a::after,
+.poi-singlePoint.isOpen > a::before {
   -webkit-transform: translateX(-50%) translateY(-50%) rotate(135deg);
   -moz-transform: translateX(-50%) translateY(-50%) rotate(135deg);
   -ms-transform: translateX(-50%) translateY(-50%) rotate(135deg);
   -o-transform: translateX(-50%) translateY(-50%) rotate(135deg);
   transform: translateX(-50%) translateY(-50%) rotate(135deg);
 }
-.singlePoint.isOpen::after {
+.poi-singlePoint.isOpen::after {
   display: none;
 }
-.singlePoint.isOpen .moreInfo {
+.poi-singlePoint.isOpen .poi-moreInfo {
   visibility: visible;
   opacity: 1;
   -webkit-transform: scale(1);
@@ -133,23 +131,23 @@ img {
   transition: opacity 0.3s 0s, visibility 0s 0s, transform 0.3s 0s, top 0.3s 0s,
     bottom 0.3s 0s, left 0.3s 0s, right 0.3s 0s;
 }
-.singlePoint.visited > a {
+.poi-singlePoint.visited > a {
   background-color: #475f74;
 }
-.singlePoint.visited::after {
+.poi-singlePoint.visited::after {
   display: none;
 }
 @media only screen and (min-width: 600px) {
-  .singlePoint.isOpen .moreInfo.left {
+  .poi-singlePoint.isOpen .poi-moreInfo.left {
     right: 140%;
   }
-  .singlePoint.isOpen .moreInfo.right {
+  .poi-singlePoint.isOpen .poi-moreInfo.right {
     left: 140%;
   }
-  .singlePoint.isOpen .moreInfo.top {
+  .poi-singlePoint.isOpen .poi-moreInfo.top {
     bottom: 140%;
   }
-  .singlePoint.isOpen .moreInfo.bottom {
+  .poi-singlePoint.isOpen .poi-moreInfo.bottom {
     top: 140%;
   }
 }
@@ -201,7 +199,7 @@ img {
     box-shadow: inset 0 0 1px 1px rgba(217, 83, 83, 0);
   }
 }
-.singlePoint .moreInfo {
+.poi-singlePoint .poi-moreInfo {
   position: fixed;
   top: 0;
   left: 0;
@@ -229,7 +227,7 @@ img {
   transition: opacity 0.3s 0s, visibility 0s 0.3s, transform 0.3s 0s,
     top 0.3s 0s, bottom 0.3s 0s, left 0.3s 0s, right 0.3s 0s;
 }
-.singlePoint .moreInfo::before {
+.poi-singlePoint .poi-moreInfo::before {
   content: "";
   position: absolute;
   height: 0;
@@ -237,24 +235,24 @@ img {
   display: none;
   border: 8px solid transparent;
 }
-.singlePoint .moreInfo h2 {
+.poi-singlePoint .poi-moreInfo h2 {
   height: 20%;
   font-size: 1rem;
   margin-bottom: 0.6em;
   text-align: center;
 }
-.singlePoint .moreInfo .pointImage {
+.poi-singlePoint .poi-moreInfo .poi-pointImage {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 50%;
 }
-.singlePoint .moreInfo .pointImage img {
+.poi-singlePoint .poi-moreInfo .poi-pointImage img {
   max-width: 100%;
   max-height: 100%;
 }
-.singlePoint .moreInfo .detailButton {
+.poi-singlePoint .poi-moreInfo .poi-detailButton {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -264,7 +262,7 @@ img {
   color: #ffffff;
   z-index: 5;
 }
-.singlePoint .moreInfo .pointText {
+.poi-singlePoint .poi-moreInfo .poi-pointText {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -272,7 +270,7 @@ img {
   color: #758eb1;
 }
 @media only screen and (min-width: 600px) {
-  .singlePoint .moreInfo {
+  .poi-singlePoint .poi-moreInfo {
     position: absolute;
     width: 220px;
     height: 240px;
@@ -282,11 +280,11 @@ img {
     border-radius: 0.25em;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   }
-  .singlePoint .moreInfo::before {
+  .poi-singlePoint .poi-moreInfo::before {
     display: block;
   }
-  .singlePoint .moreInfo.left,
-  .singlePoint .moreInfo.right {
+  .poi-singlePoint .poi-moreInfo.left,
+  .poi-singlePoint .poi-moreInfo.right {
     top: 50%;
     bottom: auto;
     -webkit-transform: translateY(-50%);
@@ -295,8 +293,8 @@ img {
     -o-transform: translateY(-50%);
     transform: translateY(-50%);
   }
-  .singlePoint .moreInfo.left::before,
-  .singlePoint .moreInfo.right::before {
+  .poi-singlePoint .poi-moreInfo.left::before,
+  .poi-singlePoint .poi-moreInfo.right::before {
     top: 50%;
     bottom: auto;
     -webkit-transform: translateY(-50%);
@@ -305,23 +303,23 @@ img {
     -o-transform: translateY(-50%);
     transform: translateY(-50%);
   }
-  .singlePoint .moreInfo.left {
+  .poi-singlePoint .poi-moreInfo.left {
     right: 160%;
     left: auto;
   }
-  .singlePoint .moreInfo.left::before {
+  .poi-singlePoint .poi-moreInfo.left::before {
     border-left-color: rgba(255, 255, 255, 0.95);
     left: 100%;
   }
-  .singlePoint .moreInfo.right {
+  .poi-singlePoint .poi-moreInfo.right {
     left: 160%;
   }
-  .singlePoint .moreInfo.right::before {
+  .poi-singlePoint .poi-moreInfo.right::before {
     border-right-color: rgba(255, 255, 255, 0.95);
     right: 100%;
   }
-  .singlePoint .moreInfo.top,
-  .singlePoint .moreInfo.bottom {
+  .poi-singlePoint .poi-moreInfo.top,
+  .poi-singlePoint .poi-moreInfo.bottom {
     left: 50%;
     right: auto;
     -webkit-transform: translateX(-50%);
@@ -330,8 +328,8 @@ img {
     -o-transform: translateX(-50%);
     transform: translateX(-50%);
   }
-  .singlePoint .moreInfo.top::before,
-  .singlePoint .moreInfo.bottom::before {
+  .poi-singlePoint .poi-moreInfo.top::before,
+  .poi-singlePoint .poi-moreInfo.bottom::before {
     left: 50%;
     right: auto;
     -webkit-transform: translateX(-50%);
@@ -340,39 +338,39 @@ img {
     -o-transform: translateX(-50%);
     transform: translateX(-50%);
   }
-  .singlePoint .moreInfo.top {
+  .poi-singlePoint .poi-moreInfo.top {
     bottom: 160%;
     top: auto;
   }
-  .singlePoint .moreInfo.top::before {
+  .poi-singlePoint .poi-moreInfo.top::before {
     border-top-color: rgba(255, 255, 255, 0.95);
     top: 100%;
   }
-  .singlePoint .moreInfo.bottom {
+  .poi-singlePoint .poi-moreInfo.bottom {
     top: 160%;
   }
-  .singlePoint .moreInfo.bottom::before {
+  .poi-singlePoint .poi-moreInfo.bottom::before {
     border-bottom-color: rgba(255, 255, 255, 0.95);
     bottom: 100%;
   }
-  .singlePoint .moreInfo h2 {
+  .poi-singlePoint .poi-moreInfo h2 {
     font-size: 1rem;
     margin-bottom: 0;
   }
-  .singlePoint .moreInfo p {
+  .poi-singlePoint .poi-moreInfo p {
     font-size: 0.875rem;
   }
 }
 
-.closeInfo {
+.poi-closeInfo {
   position: fixed;
   top: 0;
   right: 0;
   height: 44px;
   width: 44px;
 }
-.closeInfo::after,
-.closeInfo:before {
+.poi-closeInfo::after,
+.poi-closeInfo:before {
   content: "";
   position: absolute;
   left: 50%;
@@ -392,16 +390,16 @@ img {
   -moz-transition-duration: 0.2s;
   transition-duration: 0.2s;
 }
-.closeInfo::after {
+.poi-closeInfo::after {
   height: 2px;
   width: 16px;
 }
-.closeInfo::before {
+.poi-closeInfo::before {
   height: 16px;
   width: 2px;
 }
 @media only screen and (min-width: 600px) {
-  .closeInfo {
+  .poi-closeInfo {
     display: none;
   }
 }
